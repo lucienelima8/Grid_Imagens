@@ -1,7 +1,7 @@
 # Grid_Imagens
 Galeria de imagens com grid (trilha 1 - Descodificadas)
 
-<!-- <a href="" target="_blank">Clique aqui</a> -->
+<a href="https://lucienelima8.github.io/Grid_Imagens/" target="_blank">Clique aqui</a>
 
 <br>
 <hr>
