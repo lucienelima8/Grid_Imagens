@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: wheat;
+    background-color: rgb(247, 230, 200);
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1:hover {
     border: solid 3px blue;
     border-radius: 15px;
     box-shadow: 3px 3px 3px 3px green;
+    background-color: rgb(202, 248, 202);
 }
 
 .imggaleria {
@@ -46,7 +47,7 @@ h1:hover {
 .itemgaleria {
     /*pra img não estourar a margin que defini no grid*/
     overflow: hidden; /*não deixa a img ultrapassar a borda e não ficar distorcida*/
-    border: 1px solid red;
+    border: 1px solid blue;
     border-radius: 5px;
 
 }
@@ -57,6 +58,25 @@ h1:hover {
 .item01 {
     grid-column: 1 / span 4; /*ela estique até preencher todo o espaço até chegar na segunda coluna*/
     grid-row: 1 /  span 8; /*linha 1, só que esticando 5  linhas do grid*/
+}
+
+
+/*Gato andando*/
+.item05 {
+    grid-column: 4/ span 3;
+    grid-row: 1 /  span 4;
+}
+
+/*Dois gatos*/
+.item07 {
+    grid-column: 6 / span 8;
+    grid-row: 1 /  span 4;
+}
+
+/*Gato dorminhoco*/
+.item04 {
+    grid-column: 4 / span 5;
+    grid-row: 5 /  span 3;
 }
 
 /*Gato chumbo*/
@@ -71,28 +91,10 @@ h1:hover {
     grid-row: 9 /  span 3;
 }
 
-/*Gato dorminhoco*/
-.item04 {
-    grid-column: 4 / span 5;
-    grid-row: 5 /  span 3;
-}
-
-/*Gato andando*/
-.item05 {
-    grid-column: 4/ span 3;
-    grid-row: 1 /  span 4;
-}
-
 /*Gato arrepiado*/
 .item06 {
     grid-column: 4 / span 4;
     grid-row: 8 /  span 4;
-}
-
-/*Dois gatos*/
-.item07 {
-    grid-column: 6 / span 8;
-    grid-row: 1 /  span 4;
 }
 
 /*Dois gatos amarelos*/
@@ -106,7 +108,8 @@ h1:hover {
 footer {
     text-align: center;
     font-size: .7rem;
-    background-color: #ccccccaf;
+    /*background-color: #ccccccaf;*/
+    background-color: wheat;
     font-weight: bold;
     padding: 1px;
 
