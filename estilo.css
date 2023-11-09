@@ -109,7 +109,8 @@ footer {
     text-align: center;
     font-size: .7rem;
     /*background-color: #ccccccaf;*/
-    background-color: wheat;
+    /*background-color: wheat;*/
+    background-color: rgb(247, 230, 200);
     font-weight: bold;
     padding: 1px;
 
@@ -121,7 +122,137 @@ footer {
 }
 
 
+/*RESPONSIVIDADE CELULAR*/
 
+ /*480px equivale a 30em*/
+ @media screen and (max-width: 30em) {
+
+    body {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    h1:hover {
+        font-size: 1.5rem;
+        
+    }
+    
+    
+    .principal {
+        width: 80%;
+        margin: 4rem auto;
+        padding-top: 1rem;
+    
+    }
+    
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr); /*repeat pra repetir 10X a 1fr (10, 1fr)*/
+        grid-template-rows: repeat(10, 5vw);
+        gap: 0.1rem;
+        border: solid 3px blue;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px green;
+        background-color: rgb(202, 248, 202);
+    }
+    
+    .imggaleria {
+        width: 100%;
+        height: 100%;
+        /*object-fit: cover pra deixar img com nitidez melhor*/
+        object-fit: cover;
+        /*object-fit é pra especificar como um <img> ou <video> deve ser redimensionado para caber em seu contêiner*/
+        /*Essa propriedade informa ao conteúdo pra preencher o contêiner de diversas maneira; como "preservar essa proporção" ou "esticar e ocupar o máximo de espaço possível*/
+    
+    }
+    
+    /*Classe geral*/
+    .itemgaleria {
+        /*pra img não estourar a margin que defini no grid*/
+        overflow: hidden; /*não deixa a img ultrapassar a borda e não ficar distorcida*/
+        border: 1px solid blue;
+        border-radius: 5px;
+    
+    }
+    
+    /*Configurando cada item*/
+    
+    /*Gato ao lado da planta*/
+    .item01 {
+        grid-column: 1 / span 5; /*ela estique até preencher todo o espaço até chegar na segunda coluna*/
+        grid-row: 1 /  span 8 /*linha 1, só que esticando 5  linhas do grid*/
+    }
+    
+    
+    /*Gato andando*/
+    .item05 {
+        grid-column: 4 / span 4;
+        grid-row: 1 /  span 5;
+    }
+    
+    /*Dois gatos*/
+    .item07 {
+        grid-column: 6 / span 10;
+        grid-row: 1 /  span 5;
+    }
+    
+    /*Gato dorminhoco*/
+    .item04 {
+        grid-column: 4 / span 6;
+        grid-row: 5 /  span 4;
+    }
+    
+    /*Gato chumbo*/
+    .item02 {
+        grid-column: 8 / span 8;
+        grid-row: 5 /  span 4;
+    }
+    
+    /*Gato preto*/
+    .item03 {
+        grid-column: 1 / span 5;
+        grid-row: 8 /  span 6;
+    }
+    
+    /*Gato arrepiado*/
+    .item06 {
+        grid-column: 4 / span 4;
+        grid-row: 8 /  span 6;
+    }
+    
+    /*Dois gatos amarelos*/
+    .item08 {
+        grid-column: 6 / span 8;
+        grid-row: 8 /  span 6;
+    }
+    
+    
+    
+    footer {
+        text-align: center;
+        font-size: .7rem;
+        /*background-color: #ccccccaf;*/
+        /*background-color: wheat;*/
+        background-color: rgb(247, 230, 200);
+
+        font-weight: bold;
+        padding-bottom: 1rem;
+        margin-top: 8rem;
+    
+    
+    }
+    
+    .créditos {
+        opacity: .7;
+    }
+ }
 
 
 
