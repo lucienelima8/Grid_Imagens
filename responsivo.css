@@ -9,10 +9,11 @@
 
     h1 {
         text-align: center;
-        color: green;
+        color: blue;
         font-weight: bold;
         font-size: 1.5rem;
         margin-top: 2rem;
+
     }
     
     h1:hover {
@@ -23,7 +24,8 @@
     
     .principal {
         width: 80%;
-        margin: 4rem auto;
+        /*margin: 4rem auto;*/
+        margin: 3rem auto;
         padding-top: 1rem;
     
     }
@@ -55,6 +57,12 @@
         overflow: hidden; /*não deixa a img ultrapassar a borda e não ficar distorcida*/
         border: 1px solid blue;
         border-radius: 5px;
+    
+    }
+
+    .itemgaleria:hover {
+        transition: none;
+        transform: none;
     
     }
     
@@ -131,11 +139,11 @@
         font-size: .7rem;
         /*background-color: #ccccccaf;*/
         /*background-color: wheat;*/
-        background-color: rgb(247, 230, 200);
+        /*background-color: rgb(247, 230, 200);*/
 
         font-weight: bold;
         padding-bottom: 1rem;
-        margin-top: 8rem;
+        margin-top: 7rem;
     
     
     }

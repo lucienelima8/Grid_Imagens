@@ -1,5 +1,5 @@
 # Grid_Imagens
-Galeria de imagens com grid (trilha 1 - Descodificadas)
+Galeria de imagens com grid (trilha 1 e 2 - Descodificadas)
 
 <a href="https://lucienelima8.github.io/Grid_Imagens/" target="_blank">Clique aqui</a>
 
