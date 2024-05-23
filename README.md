@@ -3,8 +3,7 @@ Galeria de imagens com grid (trilha 1 e 2 - Descodificadas)
 
 <a href="https://lucienelima8.github.io/Grid_Imagens/" target="_blank">Clique aqui</a>
 
-![galeria_grid](https://github.com/lucienelima8/Grid_Imagens/assets/137119392/13c670a2-9ac9-4234-b20f-34f1aaddff7c)
-
+![capa da home](https://github.com/lucienelima8/Grid_Imagens/assets/137119392/99f2cb1b-239f-4951-90df-04c79ed1e11f)
 
 <br>
 <hr>
